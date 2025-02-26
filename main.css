@@ -9,6 +9,12 @@ header {
     background-color: rgb(12, 12, 94);
     color: white;
 }
+
+header {             /* HEADER add depois, deu mais responsividade*/
+    display: flex;
+    justify-content: center;
+  }
+
 header h1{
     font-size: 38px;
 }
@@ -28,7 +34,6 @@ header nav li a {
     max-width: 1000px;
     width: 100%;
     margin: 0px auto;
-  
 }
 
 header .MenuSuperior {
