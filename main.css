@@ -13,10 +13,12 @@ header {
 header {             /* HEADER add depois, deu mais responsividade*/
     display: flex;
     justify-content: center;
-  }
+    font-family: "Bungee";
+}
 
 header h1{
     font-size: 38px;
+    font-weight: normal;
 }
 
 header nav li {
@@ -40,4 +42,39 @@ header .MenuSuperior {
     display: flex; 
     align-items: center;
     justify-content: space-between;
+   
+}
+
+section > img {
+    margin: 12px;
+}
+
+section {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.corpoPagina {
+    margin: 10px;  
+}
+
+.corpoPagina h2 {
+    margin-bottom: 15px;
+    font-weight: normal;
+    font-family: "Bungee";
+    color: rgb(12, 12, 94);
+}
+
+.corpoPagina p {
+    margin-bottom: 13px;
+}
+
+.imgLogos img {
+    height: 25px;
+    margin-right: 8px;
+}
+
+.imgLogos li {
+    display: inline;
 }
